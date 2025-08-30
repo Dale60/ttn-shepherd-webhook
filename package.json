@@ -1,0 +1,13 @@
+{
+  "name": "ttn-shepherd-webhook",
+  "version": "1.0.0",
+  "description": "TTN webhook handler for EW Shepherd network stats auto-refresh",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
