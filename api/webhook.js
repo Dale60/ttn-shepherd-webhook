@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         
         // Send downlink via TTN API
         const response = await fetch(
-          `https://eu1.cloud.thethings.network/api/v3/as/applications/${appId}/devices/${deviceId}/down/push`,
+          `https://au1.cloud.thethings.network/api/v3/as/applications/${appId}/devices/${deviceId}/down/push`,
           {
             method: 'POST',
             headers: {
